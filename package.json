@@ -9,6 +9,13 @@
   },
   "author": "Julian Bilcke <julian.bilcke@datagica.com>",
   "license": "BSD",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/datagica/languages.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "babel-runtime": "6.0.14"
   },
