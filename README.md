@@ -9,7 +9,7 @@ It is located in `data/all-languages.json`
 
 There is also a node module which exposes languages with a valid IETF tag.
 
-This database is not complete yet: so fat it only covers 550 languages,
+This database is not complete yet: so far it only covers 550 languages,
 and only 59 IETF-tagged languages, a fraction of what is in the ISO 639-3 database
 (7776 entries).
 
