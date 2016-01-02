@@ -2,7 +2,7 @@
 
 ## Overview
 
-An database of common language codes and names.
+A database of common language codes and names.
 
 You can have a look, or directly use the database if you want to.
 It is located in `data/all-languages.json`
