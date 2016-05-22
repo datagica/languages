@@ -1,6 +1,6 @@
 {
   "name": "@datagica/languages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Index of languages codes",
   "main": "./lib/datagica-languages.js",
   "scripts": {
@@ -18,12 +18,11 @@
   "dependencies": {
   },
   "devDependencies": {
-    "chai": "3.2.0",
-    "chai-fuzzy": "1.6.0",
+    "chai": "3.5.0",
+    "chai-fuzzy": "1.6.1",
     "deep-eql": "0.1.3",
-    "ghooks": "0.3.2",
-    "lodash": "3.10.1",
-    "mocha": "2.3.3",
+    "lodash": "4.11.1",
+    "mocha": "2.4.5",
     "underscore": "1.8.3"
   }
 }
