@@ -197,12 +197,11 @@
   "iso_639_2": "apa",
   "iso_639_1": ""
 }, {
-  "_id": "ar",
-  "description": "Arabic",
-  "name": {
+  "id": "ar",
+  "label": {
     "ar": "العربية",
     "en": "Arabic",
-    "fr": "arabe",
+    "fr": "Arabe",
     "es": "árabe"
   },
   "aliases": {
@@ -504,12 +503,11 @@
   "iso_639_2": "bej",
   "iso_639_1": ""
 }, {
-  "_id": "be",
-  "description": "Belarusian",
-  "name": {
-    "eng": "belarusian",
-    "fr": "biélorusse",
-    "sv": "vitryska",
+  "id": "be",
+  "label": {
+    "en": "Belarusian",
+    "fr": "Biélorusse",
+    "sv": "Vitryska",
     "be": "беларускі",
     "ru": "белорусский",
     "pa": "ਬੇਲਾਰੂਸੀ ਭਾਸ਼ਾ",
@@ -538,8 +536,12 @@
   "iso_639_2": "bem",
   "iso_639_1": ""
 }, {
-  "_id": "bn",
-  "description": "Bengali",
+  "id": "bn",
+  "label": {
+    "be": "বাংলা",
+    "en": "Bengali",
+    "fr": "Bengali"
+  },
   "aliases": {
     "be": ["বাংলা"],
     "en": ["Bengali"],
@@ -685,14 +687,14 @@
   "iso_639_2": "bug",
   "iso_639_1": ""
 }, {
-  "_id": "bg",
-  "description": "Bulgarian",
-  "name": {
+  "id": "bg",
+  "label": {
     "bg": "български език",
-    "en": "bulgarian",
-    "fr": "bulgare"
+    "en": "Bulgarian",
+    "fr": "Bulgare"
   },
   "aliases": {
+    "bg": ["български език"],
     "en": ["bulgarian"],
     "fr": ["bulgare"]
   },
@@ -872,11 +874,11 @@
   "iso_639_2": "nya",
   "iso_639_1": "ny"
 }, {
-  "_id": "zh",
+  "id": "zh",
   "description": "Chinese",
-  "name":{
-    "en": "chinese",
-    "fr": "chinois",
+  "label": {
+    "en": "Chinese",
+    "fr": "Chinois",
     "zh": "中文"
   },
   "aliases": {
@@ -889,7 +891,11 @@
   "iso_639_1": "zh",
   "ietf": "zh"
 }, {
-  "description": "Mandarin",
+  "id": "zh-cmn",
+  "label": {
+    "en": "Mandarin",
+    "fr": "Mandarin"
+  },
   "aliases": {
     "en": ["Mandarin"],
     "fr": ["Mandarin"]
@@ -899,7 +905,11 @@
   "iso_639_1": "zh",
   "ietf": "zh-cmn"
 }, {
-  "description": "Cantonese",
+  "id": "zh-yue",
+  "label": {
+    "en": "Cantonese",
+    "fr": "Cantonais"
+  },
   "aliases": {
     "en": ["Cantonese"],
     "fr": ["Cantonais"]
@@ -1116,12 +1126,11 @@
   "iso_639_2": "crh",
   "iso_639_1": ""
 }, {
-  "_id": "hr",
-  "description": "Croatian",
-  "name": {
-    "en": "croatian",
-    "fr": "croate",
-    "hr": "hrvatski"
+  "id": "hr",
+  "label": {
+    "en": "Croatian",
+    "fr": "Croate",
+    "hr": "Hrvatski"
   },
   "aliases": {
     "en": ["croatian"],
@@ -1142,12 +1151,11 @@
   "iso_639_2": "cus",
   "iso_639_1": ""
 }, {
-  "_id": "cs",
-  "description": "Czech",
-  "name": {
+  "id": "cs",
+  "label": {
     "cs": "česky",
-    "en": "czech",
-    "fr": "tchèque"
+    "en": "Czech",
+    "fr": "Tchèque"
   },
   "aliases": {
     "cs": ["česky", "čeština"],
@@ -1168,12 +1176,11 @@
   "iso_639_2": "dak",
   "iso_639_1": ""
 }, {
-  "_id": "da",
-  "description": "Danish",
-  "name": {
-    "da": "dansk",
-    "en": "danish",
-    "fr": "danois"
+  "id": "da",
+  "label": {
+    "da": "Dansk",
+    "en": "Danish",
+    "fr": "Danois"
   },
   "aliases": {
     "da": ["dansk"],
@@ -1293,12 +1300,12 @@
   "iso_639_2": "dua",
   "iso_639_1": ""
 }, {
-  "_id": "nl",
+  "id": "nl",
   "description": "Dutch",
-  "name": {
-    "en": "dutch",
-    "fr": "néerlandais",
-    "nl": "nederlands"
+  "label": {
+    "en": "Dutch",
+    "fr": "Néerlandais",
+    "nl": "Nederlands"
   },
   "aliases": {
     "en": ["dutch", "flemish"],
@@ -1391,41 +1398,40 @@
   "iso_639_2": "elx",
   "iso_639_1": ""
 }, {
-  "_id": "en",
-  "description": "English",
-  "name": {
+  "id": "en",
+  "label": {
     "ar": "إنجليزية",
     "be": "англійская",
     "bn": "ইংরেজি",
-    "cs": "angličtina",
-    "da": "engelsk",
-    "de": "englische",
+    "cs": "Angličtina",
+    "da": "Engelsk",
+    "de": "Englische",
     "el": "αγγλική",
-    "en": "english",
-    "es": "inglés",
-    "fr": "anglais",
+    "en": "English",
+    "es": "Inglés",
+    "fr": "Anglais",
     "hi": "अंग्रेज़ी भाषा",
-    "hu": "angol",
+    "hu": "Angol",
     "ja": "英語",
-    "lb": "englesch",
-    "lt": "anglų",
-    "lv": "angļu",
-    "mg": "anglisy",
+    "lb": "Englesch",
+    "lt": "Anglų",
+    "lv": "Angļu",
+    "mg": "Anglisy",
     "ml": "ഇംഗ്ലീഷ്",
     "mr": "इंग्लिश भाषा",
-    "ms": "inggeris",
+    "ms": "Inggeris",
     "my": "အင်္ဂလိပ်",
-    "nl": "engels",
-    "no": "engelsk",
+    "nl": "Engels",
+    "no": "Engelsk",
     "pa": "ਅੰਗਰੇਜ਼ੀ",
-    "pl": "angielszczyzna",
-    "pt": "inglês",
-    "ro": "engleză",
+    "pl": "Angielszczyzna",
+    "pt": "Inglês",
+    "ro": "Engleză",
     "ru": "Англи́йский",
     "sa": "आङ्ग्ल",
-    "sk": "angličtina",
-    "sl": "angleščina",
-    "sv": "engelska",
+    "sk": "Angličtina",
+    "sl": "Angleščina",
+    "sv": "Engelska",
     "ta": "ஆங்கிலம்",
     "te": "ఆంగ్ల",
     "th": "ภาษาอังกฤษ",
@@ -1588,12 +1594,11 @@
   "iso_639_2": "fil",
   "iso_639_1": ""
 }, {
-  "_id": "fi",
-  "description": "Finnish",
-  "name": {
-    "en": "finnish",
-    "fi": "suomi",
-    "fr": "finnois"
+  "id": "fi",
+  "label": {
+    "en": "Finnish",
+    "fi": "Suomi",
+    "fr": "Finnois"
   },
   "aliases": {
     "en": ["finnish"],
@@ -1632,7 +1637,27 @@
   "iso_639_2": "fon",
   "iso_639_1": ""
 }, {
-  "description": "French",
+  "id": "fr",
+  "label": {
+    "ar": "الفرنسية",
+    "en": "French",
+    "fr": "Français",
+    "ita": "Francese",
+    "spa": "Francés",
+    "ru": "Французский",
+    "por": "Francês",
+    "bn": "ফরাসি ভাষা",
+    "jpn": "フランス",
+    "zh": "法语",
+    "deu": "Französisch",
+    "heb": "בצרפתית",
+    "yi": "פראנצויזיש",
+    "vie": "Tiếng Pháp",
+    "tur": "Fransızca",
+    "th": "ฝรั่งเศส",
+    "kor": "프랑스어",
+    "hi": "फ़्रांसीसी"
+  },
   "aliases": {
     "ar": ["بالفرنسية", "بالفرنسية", "لغة فرنسية", "بالفرن"],
     "en": ["French"],
@@ -1766,15 +1791,14 @@
   "iso_639_2": "gez",
   "iso_639_1": ""
 }, {
-  "_id": "ka",
-  "description": "Georgian",
-  "name": {
+  "id": "ka",
+  "label": {
     "en": "Georgian",
-    "fr": "géorgien",
+    "fr": "Géorgien",
     "ka": "ქართული"
   },
   "aliases": {
-    "en": ["Georgian"],
+    "en": ["georgian"],
     "fr": ["géorgien"],
     "ka": ["ქართული"]
   },
@@ -1783,16 +1807,15 @@
   "iso_639_1": "ka",
   "ietf": "ka"
 }, {
-  "_id": "de",
-  "description": "German",
-  "name": {
+  "id": "de",
+  "label": {
     "de": "Deutsch",
     "en": "German",
-    "fr": "allemand"
+    "fr": "Allemand"
   },
   "aliases": {
-    "de": ["Deutsch"],
-    "en": ["German"],
+    "de": ["deutsch"],
+    "en": ["german"],
     "fr": ["allemand"]
   },
   "iso_639_3": "",
@@ -1899,12 +1922,11 @@
   "iso_639_2": "grc",
   "iso_639_1": ""
 }, {
-  "_id": "el",
-  "description": "Greek, Modern (since 1453)",
-  "aliases": {
+  "id": "el",
+  "label": {
     "el": "Ελληνικά",
-    "en": "greek",
-    "fr": "grec"
+    "en": "Greek",
+    "fr": "Grec"
   },
   "aliases": {
     "el": ["Ελληνικά"],
@@ -1997,11 +2019,10 @@
   "iso_639_2": "haw",
   "iso_639_1": ""
 }, {
-  "_id": "he",
-  "description": "Hebrew",
-  "name": {
-    "en": "hebrew",
-    "fr": "hébreu",
+  "id": "he",
+  "label": {
+    "en": "Hebrew",
+    "fr": "Hébreu",
     "he": "עברית"
   },
   "aliases": {
@@ -2041,11 +2062,10 @@
   "iso_639_2": "him",
   "iso_639_1": ""
 }, {
-  "_id": "hi",
-  "description": "Hindi",
-  "aliases": {
-    "en": "hindi",
-    "fr": "hindi",
+  "id": "hi",
+  "label": {
+    "en": "Hindi",
+    "fr": "Hindi",
     "hi": "हिन्दी"
   },
   "aliases": {
@@ -2085,12 +2105,11 @@
   "iso_639_2": "hmn",
   "iso_639_1": ""
 }, {
-  "_id": "hu",
-  "description": "Hungarian",
-  "name": {
-    "en": "hungarian",
-    "fr": "hongrois",
-    "hu": "magyar"
+  "id": "hu",
+  "label": {
+    "en": "Hungarian",
+    "fr": "Hongrois",
+    "hu": "Magyar"
   },
   "aliases": {
     "en": ["hungarian"],
@@ -2120,11 +2139,10 @@
   "iso_639_2": "iba",
   "iso_639_1": ""
 }, {
-  "_id": "is",
-  "description": "Icelandic",
-  "name": {
-    "en": "icelandic",
-    "fr": "islandais",
+  "id": "is",
+  "label": {
+    "en": "Icelandic",
+    "fr": "Islandais",
     "is": "Íslenska"
   },
   "aliases": {
@@ -2209,12 +2227,11 @@
   "iso_639_2": "ine",
   "iso_639_1": ""
 }, {
-  "_id": "id",
-  "description": "Indonesian",
-  "name": {
-    "en": "indonesian",
-    "fr": "indonésien",
-    "id": "bahasa indonesia"
+  "id": "id",
+  "label": {
+    "en": "Indonesian",
+    "fr": "Indonésien",
+    "id": "Bahasa Indonesia"
   },
   "aliases": {
     "en": ["indonesian"],
@@ -2280,12 +2297,11 @@
   "iso_639_2": "ira",
   "iso_639_1": ""
 }, {
-  "_id": "ga",
-  "description": "Irish",
-  "name": {
-    "en": "irish",
-    "fr": "irlandais",
-    "ga": "gaeilge"
+  "id": "ga",
+  "label": {
+    "en": "Irish",
+    "fr": "Irlandais",
+    "ga": "Gaeilge"
   },
   "aliases": {
     "en": ["irish"],
@@ -2324,12 +2340,11 @@
   "iso_639_2": "iro",
   "iso_639_1": ""
 }, {
-  "_id": "it",
-  "description": "Italian",
-  "aliases": {
-    "en": "italian",
-    "fr": "italien",
-    "it": "italiano"
+  "id": "it",
+  "label": {
+    "en": "Italian",
+    "fr": "Italien",
+    "it": "Italiano"
   },
   "aliases": {
     "en": ["italian"],
@@ -2341,11 +2356,11 @@
   "iso_639_1": "it",
   "ietf": "it"
 }, {
-  "_id": "ja",
+  "id": "ja",
   "description": "Japanese",
-  "aliases": {
-    "en": "japanese",
-    "fr": "japonais",
+  "label": {
+    "en": "Japanese",
+    "fr": "Japonais",
     "ja": "日本語"
   },
   "aliases": {
@@ -2358,12 +2373,11 @@
   "iso_639_1": "ja",
   "ietf": "ja"
 }, {
-  "_id": "jv",
-  "description": "Javanese",
-  "name": {
-    "en": "javanese",
-    "fr": "javanais",
-    "jv": "basa jawa"
+  "id": "jv",
+  "label": {
+    "en": "Javanese",
+    "fr": "Javanais",
+    "jv": "Basa Jawa"
   },
   "aliases": {
     "en": ["javanese"],
@@ -2673,11 +2687,10 @@
   "iso_639_2": "kok",
   "iso_639_1": ""
 }, {
-  "_id": "ko",
-  "description": "Korean",
-  "name": {
-    "en": "korean",
-    "fr": "coréen",
+  "id": "ko",
+  "label": {
+    "en": "Korean",
+    "fr": "Coréen",
     "ko": "한국어"
   },
   "aliases": {
@@ -2834,12 +2847,11 @@
   "iso_639_2": "lat",
   "iso_639_1": "la"
 }, {
-  "_id": "lv",
-  "description": "Latvian",
-  "name": {
-    "en": "latvian",
-    "fr": "letton",
-    "lv": "latviešu valoda"
+  "id": "lv",
+  "label": {
+    "en": "Latvian",
+    "fr": "Letton",
+    "lv": "Latviešu Valoda"
   },
   "aliases": {
     "en": ["latvian"],
@@ -2860,12 +2872,11 @@
   "iso_639_2": "ast",
   "iso_639_1": ""
 }, {
-  "_id": "lb",
-  "description": "Letzeburgesch",
-  "name": {
-    "en": "luxembourgish",
-    "fr": "luxembourgeois",
-    "lb": "lëtzebuergesch"
+  "id": "lb",
+  "label": {
+    "en": "Luxembourgish",
+    "fr": "Luxembourgeois",
+    "lb": "Lëtzebuergesch"
   },
   "aliases": {
     "en": ["luxembourgish", "letzeburgesch"],
@@ -2922,12 +2933,11 @@
   "iso_639_2": "lin",
   "iso_639_1": "ln"
 }, {
-  "_id": "lt",
-  "description": "Lithuanian",
-  "name": {
-    "en": "lithuanian",
-    "fr": "lituanien",
-    "lt": "lietuvių kalba"
+  "id": "lt",
+  "label": {
+    "en": "Lithuanian",
+    "fr": "Lituanien",
+    "lt": "Lietuvių Kalba"
   },
   "aliases": {
     "en": ["lithuanian"],
@@ -3065,11 +3075,10 @@
   "iso_639_2": "rup",
   "iso_639_1": ""
 }, {
-  "_id": "mk",
-  "description": "Macedonian",
-  "name": {
-    "en": "macedonian",
-    "fr": "macédonien",
+  "id": "mk",
+  "label": {
+    "en": "Macedonian",
+    "fr": "Macédonien",
     "mk": "македонски"
   },
   "aliases": {
@@ -3118,12 +3127,11 @@
   "iso_639_2": "mak",
   "iso_639_1": ""
 }, {
-  "_id": "mg",
-  "description": "Malagasy",
-  "name": {
-    "en": "malagasy",
-    "fr": "malgache",
-    "mg": "malagasy"
+  "id": "mg",
+  "label": {
+    "en": "Malagasy",
+    "fr": "Malgache",
+    "mg": "Malagasy"
   },
   "aliases": {
     "en": ["malagasy"],
@@ -3135,12 +3143,11 @@
   "iso_639_1": "mg",
   "ietf": "mg"
 }, {
-  "_id": "ms",
-  "description": "Malay",
-  "name": {
-    "en": "malay",
-    "fr": "malais",
-    "ms": "melayu‎"
+  "id": "ms",
+  "label": {
+    "en": "Malay",
+    "fr": "Malais",
+    "ms": "Melayu‎"
   },
   "aliases": {
     "en": ["malay"],
@@ -3152,11 +3159,10 @@
   "iso_639_1": "ms",
   "ietf": "ms"
 }, {
-  "_id": "ml",
-  "description": "Malayalam",
-  "aliases": {
-    "en": "malayalam",
-    "fr": "malayalam",
+  "id": "ml",
+  "label": {
+    "en": "Malayalam",
+    "fr": "Malayalam",
     "ml": "മലയാളം"
   },
   "aliases": {
@@ -3178,12 +3184,11 @@
   "iso_639_2": "div",
   "iso_639_1": "dv"
 }, {
-  "_id": "mt",
-  "description": "Maltese",
-  "name": {
-    "en": "maltese",
-    "fr": "maltais",
-    "mt": "malti"
+  "id": "mt",
+  "label": {
+    "en": "Maltese",
+    "fr": "Maltais",
+    "mt": "Malti"
   },
   "aliases": {
     "en": ["maltese"],
@@ -3276,11 +3281,10 @@
   "iso_639_2": "arn",
   "iso_639_1": ""
 }, {
-  "_id": "ma",
-  "description": "Marathi",
-  "aliases": {
-    "en": "marathi",
-    "fr": "marathe",
+  "id": "ma",
+  "label": {
+    "en": "Marathi",
+    "fr": "Marathe",
     "ma": "मराठी"
   },
   "aliases": {
@@ -3644,12 +3648,11 @@
   "iso_639_2": "nso",
   "iso_639_1": ""
 }, {
-  "_id": "no",
-  "description": "Norwegian",
-  "aliases": {
-    "en": "norwegian",
-    "fr": "norvégien",
-    "no": "norsk"
+  "id": "no",
+  "label": {
+    "en": "Norwegian",
+    "fr": "Norvégien",
+    "no": "Norsk"
   },
   "aliases": {
     "en": ["norwegian"],
@@ -3660,12 +3663,11 @@
   "iso_639_2": "nor",
   "iso_639_1": "no"
 }, {
-  "_id": "nb",
-  "description": "Norwegian Bokmål",
-  "name": {
-    "en": "bokmål",
-    "fr": "bokmål",
-    "no": "bokmål"
+  "id": "nb",
+  "label": {
+    "en": "Norwegian Bokmål",
+    "fr": "Norvégien Bokmål",
+    "no": "Norsk Bokmål"
   },
   "aliases": {
     "en": ["bokmål", "norwegian bokmål"],
@@ -3678,12 +3680,11 @@
   "iso_639_1": "nb",
   "ietf": "nb"
 }, {
-  "description": "Nynorsk",
-  "name": {
-    "en": "nynorsk",
-    "fr": "nynorsk",
-    "no": "bokmål",
-    "nn": "nynorsk"
+  "label": {
+    "en": "Norwegian Bynorsk",
+    "fr": "Norvégien Bynorsk",
+    "no": "Norsk Bokmål",
+    "nn": "Nynorsk"
   },
   "aliases": {
     "en": ["norwegian nynorsk", "nynorsk"],
@@ -3930,11 +3931,10 @@
   "iso_639_2": "pag",
   "iso_639_1": ""
 }, {
-  "_id": "pa",
-  "description": "Panjabi",
-  "name": {
-    "en": "panjabi",
-    "fr": "pendjabi",
+  "id": "pa",
+  "label": {
+    "en": "Panjabi",
+    "fr": "Pendjabi",
     "pa": "ਪੰਜਾਬੀ"
   },
   "aliases": {
@@ -4037,12 +4037,11 @@
   "iso_639_2": "pon",
   "iso_639_1": ""
 }, {
-  "_id": "pl",
-  "description": "Polish",
-  "aliases": {
-    "en": "polish",
-    "fr": "polonais",
-    "pl": "polski"
+  "id": "pl",
+  "label": {
+    "en": "Polish",
+    "fr": "Polonais",
+    "pl": "Polski"
   },
   "aliases": {
     "en": ["polish"],
@@ -4054,12 +4053,11 @@
   "iso_639_1": "pl",
   "ietf": "pl"
 }, {
-  "_id": "pt",
-  "description": "Portuguese",
-  "aliases": {
-    "en": "portuguese",
-    "fr": "portugais",
-    "pt": "português"
+  "id": "pt",
+  "label": {
+    "en": "Portuguese",
+    "fr": "Portugais",
+    "pt": "Português"
   },
   "aliases": {
     "en": ["portuguese"],
@@ -4152,12 +4150,11 @@
   "iso_639_2": "roa",
   "iso_639_1": ""
 }, {
-  "_id": "ro",
-  "description": "Romanian",
-  "aliases": {
-    "en": "romanian",
-    "fr": "roumain",
-    "ro": "română"
+  "id": "ro",
+  "label": {
+    "en": "Romanian",
+    "fr": "Roumain",
+    "ro": "Română"
   },
   "aliases": {
     "en": ["romanian", "moldavian", "moldovan"],
@@ -4196,11 +4193,10 @@
   "iso_639_2": "run",
   "iso_639_1": "rn"
 }, {
-  "_id": "ru",
-  "description": "Russian",
-  "name": {
-    "en": "russian",
-    "fr": "russe",
+  "id": "ru",
+  "label": {
+    "en": "Russian",
+    "fr": "Russe",
     "ru": "русский"
   },
   "aliases": {
@@ -4276,11 +4272,10 @@
   "iso_639_2": "sag",
   "iso_639_1": "sg"
 }, {
-  "_id": "sa",
-  "description": "Sanskrit",
-  "name": {
-    "en": "sanskrit",
-    "fr": "sanskrit",
+  "id": "sa",
+  "label": {
+    "en": "Sanskrit",
+    "fr": "Sanskrit",
     "sa": "संस्कृतम्"
   },
   "aliases": {
@@ -4374,11 +4369,10 @@
   "iso_639_2": "nso",
   "iso_639_1": ""
 }, {
-  "_id": "sr",
-  "description": "Serbian",
-  "aliases": {
-    "en": "serbian",
-    "fr": "serbe",
+  "id": "sr",
+  "label": {
+    "en": "Serbian",
+    "fr": "Serbe",
     "sr": "српски"
   },
   "aliases": {
@@ -4472,11 +4466,10 @@
   "iso_639_2": "snd",
   "iso_639_1": "sd"
 }, {
-  "_id": "si",
-  "description": "Sinhala",
-  "name": {
-    "en": "sinhala",
-    "fr": "singhalais",
+  "id": "si",
+  "label": {
+    "en": "Sinhala",
+    "fr": "Singhalais",
     "si": "සිංහල"
   },
   "aliases": {
@@ -4543,12 +4536,11 @@
   "iso_639_2": "sla",
   "iso_639_1": ""
 }, {
-  "_id": "sk",
-  "description": "Slovak",
-  "aliases": {
-    "en": "slovak",
-    "fr": "slovaque",
-    "sk": "slovenčina"
+  "id": "sk",
+  "label": {
+    "en": "Slovak",
+    "fr": "Slovaque",
+    "sk": "Slovenčina"
   },
   "aliases": {
     "en": ["slovak"],
@@ -4560,12 +4552,11 @@
   "iso_639_1": "sk",
   "ietf": "sk"
 }, {
-  "_id": "sl",
-  "description": "Slovenian",
-  "name": {
-    "en": "slovenian",
-    "fr": "slovène",
-    "sl": "slovenščina"
+  "id": "sl",
+  "label": {
+    "en": "Slovenian",
+    "fr": "Slovène",
+    "sl": "Slovenščina"
   },
   "aliases": {
     "en": ["slovenian"],
@@ -4658,12 +4649,11 @@
   "iso_639_2": "sma",
   "iso_639_1": ""
 }, {
-  "_id": "es",
-  "description": "Spanish",
-  "aliases": {
-    "en": "spanish",
-    "es": "español",
-    "fr": "espagnol"
+  "id": "es",
+  "label": {
+    "en": "Spanish",
+    "es": "Español",
+    "fr": "Espagnol"
   },
   "aliases": {
     "en": ["spanish", "castilian"],
@@ -4747,12 +4737,11 @@
   "iso_639_2": "ssw",
   "iso_639_1": "ss"
 }, {
-  "_id": "sv",
-  "description": "Swedish",
-  "name": {
-    "en": "swedish",
-    "fr": "suédois",
-    "sv": "svenska"
+  "id": "sv",
+  "label": {
+    "en": "Swedish",
+    "fr": "Suédois",
+    "sv": "Svenska"
   },
   "aliases": {
     "en": ["swedish"],
@@ -4827,11 +4816,10 @@
   "iso_639_2": "tmh",
   "iso_639_1": ""
 }, {
-  "_id": "ta",
-  "description": "Tamil",
-  "name": {
-    "en": "tamil",
-    "fr": "tamoul",
+  "id": "ta",
+  "label": {
+    "en": "Tamil",
+    "fr": "Tamoul",
     "ta": "தமிழ்"
   },
   "aliases": {
@@ -4853,11 +4841,10 @@
   "iso_639_2": "tat",
   "iso_639_1": "tt"
 }, {
-  "_id": "te",
-  "description": "Telugu",
-  "name": {
-    "en": "telugu",
-    "fr": "télougou",
+  "id": "te",
+  "label": {
+    "en": "Telugu",
+    "fr": "Télougou",
     "te": "తెలుగు"
   },
   "aliases": {
@@ -4888,11 +4875,10 @@
   "iso_639_2": "tet",
   "iso_639_1": ""
 }, {
-  "_id": "th",
-  "description": "Thai",
-  "name": {
-    "en": "thai",
-    "fr": "thaï",
+  "id": "th",
+  "label": {
+    "en": "Thai",
+    "fr": "Thaï",
     "th": "ไทย"
   },
   "aliases": {
@@ -5040,12 +5026,11 @@
   "iso_639_2": "tup",
   "iso_639_1": ""
 }, {
-  "_id": "tr",
-  "description": "Turkish",
-  "name": {
-    "en": "turkish",
-    "fr": "turc",
-    "tr": "türkçe"
+  "id": "tr",
+  "label": {
+    "en": "Turkish",
+    "fr": "Turc",
+    "tr": "Türkçe"
   },
   "aliases": {
     "en": ["turkish"],
@@ -5129,11 +5114,10 @@
   "iso_639_2": "uig",
   "iso_639_1": "ug"
 }, {
-  "_id": "uk",
-  "description": "Ukrainian",
-  "name": {
-    "en": "ukrainian",
-    "fr": "ukrainien",
+  "id": "uk",
+  "label": {
+    "en": "Ukrainian",
+    "fr": "Ukrainien",
     "uk": "українська"
   },
   "aliases": {
@@ -5182,12 +5166,11 @@
   "iso_639_2": "uig",
   "iso_639_1": "ug"
 }, {
-  "_id": "uz",
-  "description": "Uzbek",
-  "name": {
-    "en": "uzbek",
-    "fr": "ouszbek",
-    "uz": "zbek"
+  "id": "uz",
+  "label": {
+    "en": "Uzbek",
+    "fr": "Ouszbek",
+    "uz": "Zbek"
   },
   "aliases": {
     "en": ["uzbek"],
@@ -5226,12 +5209,11 @@
   "iso_639_2": "ven",
   "iso_639_1": "ve"
 }, {
-  "_id": "vi",
-  "description": "Vietnamese",
-  "name": {
-    "en": "vietnamese",
-    "fr": "vietnamien",
-    "vi": "tiếng việt"
+  "id": "vi",
+  "label": {
+    "en": "Vietnamese",
+    "fr": "Vietnamien",
+    "vi": "Tiếng Việt"
   },
   "aliases": {
     "en": ["vietnamese"],
@@ -5387,11 +5369,10 @@
   "iso_639_2": "yap",
   "iso_639_1": ""
 }, {
-  "_id": "yi",
-  "description": "Yiddish",
-  "name": {
-    "en": "yiddish",
-    "fr": "yiddish",
+  "id": "yi",
+  "label": {
+    "en": "Yiddish",
+    "fr": "Yiddish",
     "yi": "ייִדיש"
   },
   "aliases": {

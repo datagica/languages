@@ -71,6 +71,9 @@ not make a mistake by using it in a real world software app.
 
 It is well suited to today's applications and currently spoken languages.
 
+## TODO
+
+translate all languages with a valid IETF code to language XXX
 
 ## Some useful links:
 
