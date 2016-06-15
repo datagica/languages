@@ -730,24 +730,6 @@
   "iso_639_2": "cad",
   "iso_639_1": ""
 }, {
-  "description": "Castilian",
-  "aliases": {
-    "en": ["Spanish", "Castilian"],
-    "fr": ["espagnol", "castillan"]
-  },
-  "iso_639_3": "",
-  "iso_639_2": "spa",
-  "iso_639_1": "es"
-}, {
-  "description": "Catalan",
-  "aliases": {
-    "en": ["Catalan", "Valencian"],
-    "fr": ["catalan", "valencien"]
-  },
-  "iso_639_3": "",
-  "iso_639_2": "cat",
-  "iso_639_1": "ca"
-}, {
   "description": "Caucasian languages",
   "aliases": {
     "en": ["Caucasian languages"],
@@ -4665,6 +4647,40 @@
   "iso_639_1": "es",
   "ietf": "es"
 }, {
+  "id": "ca",
+  "description": "Catalan",
+  "aliases": {
+    "en": "Catalan",
+    "fr": "Catalan",
+    "es": "Catalán",
+    "ca": "Català"
+  },
+  "aliases": {
+    "en": ["catalan"],
+    "fr": ["catalan", "langue catalane"],
+    "es": ["catalán", "idioma catalán"],
+    "ca": ["català"]
+  },
+  "iso_639_3": "",
+  "iso_639_2": "cat",
+  "iso_639_1": "ca",
+  "ietf": "ca"
+},{
+  "id": "ca-es-valencia",
+  "label": {
+    "en": "Valencian",
+    "fr": "Valencien",
+    "es": "Valenciano",
+    "ca": "Valencià"
+  },
+  "aliases": {
+    "en": ["valencian"],
+    "fr": ["valencien", "catalan méridional"],
+    "es": ["valenciano", "lengua valenciana", "idioma valenciano"],
+    "ca": ["valencià"]
+  },
+  "ietf": "ca-ES-VALENCIA"
+}, {
   "description": "Sranan Tongo",
   "aliases": {
     "en": ["Sranan Tongo"],
@@ -5190,15 +5206,6 @@
   "iso_639_3": "",
   "iso_639_2": "vai",
   "iso_639_1": ""
-}, {
-  "description": "Valencian",
-  "aliases": {
-    "en": ["Catalan", "Valencian"],
-    "fr": ["catalan", "valencien"]
-  },
-  "iso_639_3": "",
-  "iso_639_2": "cat",
-  "iso_639_1": "ca"
 }, {
   "description": "Venda",
   "aliases": {

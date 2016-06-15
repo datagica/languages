@@ -20,7 +20,7 @@ describe('@datagica/languages', () => {
     };
     console.log(pretty(stats));
 
-    expect(stats).to.be.like({ all: 550, withIETF: 58, ietf: 58 })
+    expect(stats).to.be.like({ all: 549, withIETF: 60, ietf: 60 })
   })
 
 });
