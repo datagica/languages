@@ -1,6 +1,6 @@
 {
   "name": "@datagica/languages",
-  "version": "0.0.5",
+  "version": "0.0.5-1",
   "description": "Index of languages codes",
   "main": "./lib/datagica-languages.js",
   "scripts": {
