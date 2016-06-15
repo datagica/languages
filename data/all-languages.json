@@ -4649,7 +4649,7 @@
 }, {
   "id": "ca",
   "description": "Catalan",
-  "aliases": {
+  "label": {
     "en": "Catalan",
     "fr": "Catalan",
     "es": "Catalán",
